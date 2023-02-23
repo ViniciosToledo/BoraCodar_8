@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #292738;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 112.0rem;
+  margin: 11.2rem auto;
+  height: 37.9rem;
+}
+
+.card {
+  background-color: #363447;
+  border-radius: 1.6rem;
+  width: 32.8rem;
+  height: 37.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.card h2 {
+  font-weight: 600;
+  color: #FFFFFF;
+  font-size: 2.4rem;
+  line-height: 3.84rem;
+  text-align: center;
+  font: bold;
+}
+
+.card p {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.status {
+  text-align: center;
+}
+
+.status p {
+  color: #81FBB8;
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+.progresso {
+  width: 19.7rem;
+  height: 19.7rem;
+  border-radius: 50%;
+  background: linear-gradient(121.94deg, #DF9780 15.98%, #A66DE9 82.85%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.progresso span {
+  font-weight: 700;
+  font-size: 3.4rem;
+  line-height: 5.4rem;
+}
+
+.progresso p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+.progresso::before {
+  content: '';
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  background-color: #363447;
+  border-radius: 50%;
+
+}
+
+.valor-progresso {
+  position: relative;
+}
+
+.resultados {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
