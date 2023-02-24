@@ -13,9 +13,12 @@
 </head>
 <body>
     <div class="cards">
+        
         <div class="card">
             <div class="conteudo">
+                
                 <h2>NPS geral</h2>
+                
                 <div class="status">
                     <svg width="54" height="55" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="27" cy="27.5" r="27" fill="url(#paint0_linear_201_65)"/>
@@ -31,8 +34,10 @@
                         </svg>
                         
                     <p>Excelente!</p>
+                
                 </div>
-                <div class="resultados">
+                
+                <div class="resultados-container">
                     <p>NPS Score 75</p>
                 </div>
             </div>
@@ -40,34 +45,85 @@
 
         <div class="card">
             <div class="conteudo">
+                
                 <h2 class="text-red-800">Vendas fechadas</h2>
+                
                 <div class="progresso">
                     <span class="valor-progresso">70%</span>
                     <p class="valor-progresso">alcançada</p>
                 </div>
-                <div class="resultados">
+                
+                <div class="resultados-container">
+                    <span class="circulo-esperado"></span>
                     <p>Esperado  100</p>
+                    <span class="circulo-alcançado"></span>
                     <p>Alcançado  70</p> 
                 </div>
+
             </div>
         </div>
 
         <div class="card">
             <div class="conteudo">
+               
                 <h2>Meta mensal</h2>
-                <div class="progresso">
+               
+                <div class="progresso2">
                     <span class="valor-progresso">90%</span>
                     <p class="valor-progresso">alcançada</p>
                 </div>
-                <div class="resultados">
+                
+                <div class="resultados-container">
+                    <span class="circulo-esperado"></span>
                     <p>Esperado  R$ 70K</p>
+                    <span class="circulo-alcançado2"></span>
                     <p>Alcançado  R$ 63K</p>
                 </div>
+
             </div>
         </div>
+
     </div>
-    <div>
-        <div></div>
+    
+    
+    <div class="grafico-container">
+        <div class="bloco-esquerda">
+            
+            <h1>Vendas por dia da semana</h1>
+            
+            <div class="vendas">
+                <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.5 0.5L12.9952 11.75H0.00480938L6.5 0.5Z" fill="url(#paint0_linear_201_16)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_201_16" x1="6.5" y1="0.5" x2="6.5" y2="15.5" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#81FBB8"/>
+                    <stop offset="1" stop-color="#28C76F"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
+                <p>Dia com mais vendas</p>
+            </div>
+            <h2>quarta-feira</h2>
+
+                <div class="vendas">
+                    <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.5 11.5L12.9952 0.25H0.00480938L6.5 11.5Z" fill="url(#paint0_linear_201_24)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_201_24" x1="6.5" y1="11.5" x2="6.5" y2="-3.5" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#EA5455"/>
+                        <stop offset="1" stop-color="#FEB692"/>
+                        </linearGradient>
+                        </defs>
+                    </svg>
+                    <p>Dia com mais vendas</p>
+                    
+                </div>
+                <h2>domingo</h2>
+
+            </div>
+                
+
+        
         <div></div>
     </div>
 </body>
