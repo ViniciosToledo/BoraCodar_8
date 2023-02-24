@@ -177,6 +177,9 @@ body {
   margin: auto;
   border-radius: 1.6rem;
   box-shadow: 0.3rem 0.4rem 2.6rem rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .bloco-esquerda {
@@ -208,4 +211,86 @@ body {
   justify-content: space-around;
   align-items: center;
 
+}
+
+.grafico {
+  width: 52.3rem;
+  height: 18.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.grafico .linha-central {
+  width: 53.3rem;
+  height: 0.3rem;
+  background: #4A4556;
+  border-radius: 99.9rem;
+  display: block;
+}
+
+.barras-container {
+  width: 53.3rem;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 16rem;
+  justify-content: space-around;
+}
+
+.barras {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.barra {
+  width: 1.5rem;
+  display: block;
+  background: linear-gradient(180deg, #90F7EC 0%, #32CCBC 100%);
+  position: absolute;
+  border-radius: 99.9rem;
+}
+
+.dia {
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #FFFFFF;
+}
+
+.um {
+  height: 3.9rem;
+  top: -4.8rem;
+}
+
+.dois {
+  height: 11.5rem;
+  top: -12rem;
+}
+
+.tres {
+  height: 7.6rem;
+  top: -8.2rem;
+}
+
+.quatro {
+  height: 15.9rem;
+  top: -16.2rem;
+}
+
+.cinco {
+  height: 12.9rem;
+  top: -13.2rem;
+}
+
+.seis {
+  height: 12.0rem;
+  top: -12.2rem;
+}
+
+.sete {
+  height: 6.9rem;
+  top: -7.1rem;
 }
